@@ -10,5 +10,6 @@ class PartyGuests < ActiveRecord::Migration[5.0]
       t.string :illnesses
       t.sting :medication
       t.string :voting_prefereneces
+    end
   end
 end
