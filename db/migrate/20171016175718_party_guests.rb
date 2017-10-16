@@ -1,6 +1,6 @@
 class PartyGuests < ActiveRecord::Migration[5.0]
   def change
-    create_table :parts do |t|
+    create_table :party_guests do |t|
       t.string :first_name
       t.string :last_name
       t.string :dietary_restrictions
@@ -8,7 +8,7 @@ class PartyGuests < ActiveRecord::Migration[5.0]
       t.integer :number_of_kids
       t.string :vulnerabilities
       t.string :illnesses
-      t.sting :medication
+      t.string :medication
       t.string :voting_prefereneces
     end
   end
